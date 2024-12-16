@@ -211,10 +211,10 @@ public static class ChineseSetting
         if (!tmp.text.Equals("Proelium Fatale"))
             return;
         tmp.font = ChineseFont.Tmpchinesefonts[0];
-        tmp.text = "<b>命定之战</b>";
+        tmp.text = "<b>The Battle of Fate</b>";
         tmp = textGroup.GetChild(2).GetComponentInChildren<TextMeshProUGUI>();
         tmp.font = ChineseFont.Tmpchinesefonts[0];
-        tmp.text = "凡跨入此门之人，当放弃一切希望";
+        tmp.text = "For anyone who steps through this door, they must abandon all hope.";
     }
 
     [HarmonyPatch(typeof(VoiceGenerator), nameof(VoiceGenerator.CreateVoiceInstance))]
