@@ -211,7 +211,7 @@ public static class ChineseSetting
         if (!tmp.text.Equals("Proelium Fatale"))
             return;
         tmp.font = ChineseFont.Tmpchinesefonts[0];
-        tmp.text = "<b>The Battle of Fate</b>";
+        tmp.text = "<b>  The Battle of Fate  </b>";
         tmp = textGroup.GetChild(2).GetComponentInChildren<TextMeshProUGUI>();
         tmp.font = ChineseFont.Tmpchinesefonts[0];
         tmp.text = "For anyone who steps through this door, they must abandon all hope.";
